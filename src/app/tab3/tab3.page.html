@@ -9,9 +9,99 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">Configurações</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Crie sua conta!"></app-explore-container>
-</ion-content>
+  <ion-accordion-group>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Meu Perfil</ion-label>
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        Alterar Dados
+      </div>
+      <div class="ion-padding" slot="content">
+        Privacidade
+      </div>
+      <div class="ion-padding" slot="content">
+        Segurança
+      </div>
+      <div class="ion-padding" slot="content">
+        Preferências
+      </div>
+      <div class="ion-padding" slot="content">
+        Exclusão da conta
+      </div>
+    </ion-accordion>
+
+    <ion-accordion value="second">
+      <ion-item slot="header" color="light">
+        <ion-label>Aplicativo</ion-label>
+        <ion-icon name="happy-outline"></ion-icon>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        Áudio
+      </div>
+      <div class="ion-padding" slot="content">
+        Tema
+      </div>
+      <div class="ion-padding" slot="content">
+        Local
+      </div>
+      <div class="ion-padding" slot="content">
+        Termos e Condições
+      </div>
+    </ion-accordion>
+
+    <ion-accordion value="second">
+      <ion-item slot="header" color="light">
+        <ion-label>Cadastre-se como colaborador(a)!</ion-label>
+        <ion-icon name="cash-outline"></ion-icon>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        Entregador/Comprador Delivery
+      </div>
+      <div class="ion-padding" slot="content">
+        Prestador(a) de serviços
+      </div>
+      <div class="ion-padding" slot="content">
+        Configurar
+      </div>
+      <div class="ion-padding" slot="content">
+        Faça um resumo de suas habilidades
+      </div>
+    </ion-accordion>
+
+    <ion-accordion value="third">
+      <ion-item slot="header" color="light">
+        <ion-label>Dúvidas Frequentes</ion-label>
+        <ion-icon name="help-circle-outline"></ion-icon>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        Posso utilizar dos serviços sendo colaborador?
+      </div>
+      <div class="ion-padding" slot="content">
+        Posso usar o aplicativo em qualquer lugar?
+      </div>
+      <div class="ion-padding" slot="content">
+        Deixe sua pergunta
+      </div>
+      <div class="ion-padding" slot="content">
+       Posso utilizar dos serviços sendo colaborador?
+      </div>
+     <div class="ion-padding" slot="content">
+       Posso usar o aplicativo em qualquer lugar?
+     </div>
+      <div class="ion-padding" slot="content">
+       Deixe sua pergunta
+      </div>
+    </ion-accordion>
+<ion-card>
+
+  <ion-item href="#" class="ion-activated">
+    <ion-icon name="person-circle-outline"></ion-icon>
+    <ion-label>Crie sua conta!</ion-label>
+  </ion-item>
+
